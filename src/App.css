@@ -21,76 +21,10 @@
   font-size: 14px;
   font-weight: bold;
   cursor: pointer;
-  position: absolute; 
   margin-top: 50px;
 }
 
 .component.active {
   background-color: red;
   color: white;
-}
-
-.component:nth-child(1) {
-  top: 0;
-  left: 0;
-  margin-left: 35px;
-}
-
-.component:nth-child(2) {
-  top: 100px;
-  left: 0;
-  margin-left: 49px;
-  margin-top: 12%;
-}
-
-.component:nth-child(3) {
-  top: 0;
-  left: 470px;
-  margin-top: 170px;
-}
-
-.component:nth-child(4) {
-  top: 100px;
-  left: 620px;
-  margin-top: 70px;
-}
-
-.component:nth-child(5) {
-  top: 200px;
-  left: 0;
-  margin-left: 49px;
-  margin-top: 90px;
-}
-
-.component:nth-child(6) {
-  top: 242px;
-  left: 150px;
-  margin-left: 27px;
-}
-
-.component:nth-child(7) {
-  top: 240px;
-  left: 490px;
-}
-
-.component:nth-child(8) {
-  top: 370px;
-  left: 190px;
-}
-
-.component:nth-child(9) {
-  top: 370px;
-  left: 320px;
-}
-
-@media (max-width: 768px) {
-  .components-container {
-    width: 100%;
-    height: auto;
-  }
-
-  .component {
-    width: 60px;
-    height: 60px;
-  }
 }
