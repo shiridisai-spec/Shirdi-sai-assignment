@@ -2,7 +2,6 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #f0f0f0;
 }
 
 .components-container {
@@ -52,7 +51,7 @@
 
 .component:nth-child(4) {
   top: 100px;
-  left: 590px;
+  left: 620px;
   margin-top: 70px;
 }
 
@@ -71,7 +70,7 @@
 
 .component:nth-child(7) {
   top: 240px;
-  left: 470px;
+  left: 490px;
 }
 
 .component:nth-child(8) {
