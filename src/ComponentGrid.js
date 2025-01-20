@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 
 const ComponentGrid = () => {
+  // The list of all the components
   const components = [
     { id: 1, label: 'comp1' },
     { id: 2, label: 'comp2' },
@@ -13,6 +14,7 @@ const ComponentGrid = () => {
     { id: 9, label: 'comp9' },
   ]
 
+  // Here I have defined a map which defines which components should be highlighted when a specific component is clicked
   const highlightMap = {
     1: [1, 2, 5, 6, 8, 9, 3, 4, 7],
     2: [2, 5, 6, 8, 9],
@@ -25,8 +27,10 @@ const ComponentGrid = () => {
     9: [9],
   }
 
+  // I have defined a state to track currently active components
   const [activeComponents, setActiveComponents] = useState([])
 
+  // The function to update active components based on the clicked component's ID
   const handleClick = (id) => {
     setActiveComponents(highlightMap[id] || [])
   }

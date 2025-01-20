@@ -22,7 +22,7 @@
   font-size: 14px;
   font-weight: bold;
   cursor: pointer;
-  position: absolute;
+  position: absolute; 
   margin-top: 50px;
 }
 
@@ -82,4 +82,16 @@
 .component:nth-child(9) {
   top: 370px;
   left: 320px;
+}
+
+@media (max-width: 768px) {
+  .components-container {
+    width: 100%;
+    height: auto;
+  }
+
+  .component {
+    width: 60px;
+    height: 60px;
+  }
 }
